@@ -1,5 +1,5 @@
 {
-  "name": "prosemirror-schema-list",
+  "name": "@igormadeira/prosemirror-schema-list",
   "version": "1.3.0",
   "description": "List-related schema elements and commands for ProseMirror",
   "type": "module",
@@ -24,14 +24,14 @@
     "url": "git://github.com/prosemirror/prosemirror-schema-list.git"
   },
   "dependencies": {
-    "prosemirror-model": "^1.0.0",
-    "prosemirror-transform": "^1.7.3",
-    "prosemirror-state": "^1.0.0"
+    "@igormadeira/prosemirror-model": "file:..\\prosemirror-model",
+    "@igormadeira/prosemirror-transform": "file:..\\prosemirror-transform",
+    "@igormadeira/prosemirror-state": "file:..\\prosemirror-state"
   },
   "devDependencies": {
-    "prosemirror-state": "^1.0.0",
-    "@prosemirror/buildhelper": "^0.1.5",
-    "prosemirror-test-builder": "^1.0.0"
+    "@igormadeira/prosemirror-state": "file:..\\prosemirror-state",
+    "@igormadeira/buildhelper": "file:..\\buildhelper",
+ "@igormadeira/prosemirror-test-builder": "file:..\\prosemirror-test-builder"
   },
   "scripts": {
     "test": "pm-runtests",
